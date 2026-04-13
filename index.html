@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Register Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <h2>Register With Us</h2>
+
+        <form id="form">
+
+            <input type="text" id="username" placeholder="Username">
+
+            <input type="email" id="email" placeholder="Email">
+
+            <input type="password" id="password" placeholder="Enter password">
+            <small id="passError"></small>
+
+            <input type="password" id="confirm" placeholder="Confirm Password">
+            <div class="strength-bar" id="bar"></div>
+            <p id="strengthText"></p>
+
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+
+    <script src="./script.js"></script>
+
+</body>
+
+</html>
